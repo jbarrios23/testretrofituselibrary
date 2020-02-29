@@ -7,12 +7,12 @@ install {
         pom {
             project {
                 packaging 'aar'
-                groupId 'com.android.librarynp' // PACKAGE NAME FROM BINTRAY ACCOUNT
-                artifactId 'librarynp' // THE NAME OF YOUR MODULE
+                groupId 'com.example.testretrofituselibrary' // PACKAGE NAME FROM BINTRAY ACCOUNT
+                artifactId 'testretrofituselibrary' // THE NAME OF YOUR MODULE
 
-                name 'librarynp' // YOUR LIBRARY NAME
+                name 'testretrofituselibrary' // YOUR LIBRARY NAME
                 description 'FilePickerHelper is a library to get multi-type files written in Java.' // YOUR LIBRARY DESCRIPTION
-                url 'https://github.com/jbarrios23/supermercadocada' // YOUR SITE
+                url 'https://github.com/jbarrios23/testretrofituselibrary' // YOUR SITE
 
                 licenses {
                     license {
@@ -28,9 +28,9 @@ install {
                     }
                 }
                 scm {
-                    connection 'https://github.com/jbarrios23/supermercadocada.git' // YOUR GIT REPO
-                    developerConnection 'https://github.com/jbarrios23/supermercadocada.git' // YOUR GIT REPO
-                    url 'https://github.com/jbarrios23/supermercadocada' // YOUR SITE
+                    connection 'https://github.com/jbarrios23/testretrofituselibrary.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/jbarrios23/testretrofituselibrary.git' // YOUR GIT REPO
+                    url 'https://github.com/jbarrios23/testretrofituselibrary' // YOUR SITE
 
                 }
             }
